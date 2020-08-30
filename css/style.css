@@ -1,0 +1,165 @@
+@import 'fonts.css';
+/*font-family: 'Open Sans', sans-serif;*/
+
+body {
+    font-family: 'Open Sans';
+    /* background: grey; */
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu-bar {
+    background: #fff;
+    padding: 20px 0;
+    color: #212121;
+}
+.menu__item{
+    margin-left: 37px;
+}
+.menu__item a{
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    color: #212121;
+}
+.menu__item a:hover {
+    text-decoration: none;
+    color: #00897b;
+}
+/*Шапка*/
+.header {
+    color: #fff;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url(../img/header.png);
+}
+.header__title {
+    font-size: 55px;
+}
+.header__text {
+    margin-bottom: 100px;
+}
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: transparent;
+    border: 2px solid #fff;
+}
+/* О нас */
+.about {
+    padding-top: 120px;
+    padding-bottom: 125px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text {
+    color: #212121;
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+.about__h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+}
+.about_text {
+    font-family: 'Open Sans Regular';
+    font-size: 15px;
+}
+/* Наши услуги */
+.services {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: #000;
+    background: #e4fdf9;
+    text-align: center;
+}
+.phone {
+    transition: 0.3s;
+}
+.services__card {
+    background: #fff;
+    padding: 50px 40px 40px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.services__card:hover {
+    background: #00897b;
+    color: #fff;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+
+.services__card:hover .services__card_research,
+.services__card:hover .services__card_portfolio,
+.services__card:hover .services__card_support,
+.services__card:hover .services__card_documentation,
+.services__card:hover .services__card_development,
+.services__card:hover .services__card_design {
+    filter: invert(100%); 
+    -webkit-filter:invert(100%);
+}
+.services__card:hover .services__btn {
+    border: 2px solid #fff;
+    color: #fff;
+}
+.services__btn {
+    color: #000;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    background: transparent;
+    padding: 10px 12px 10px;
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    margin-top: 45px;
+    transition: 0.3s;
+}
+.services__btn:hover {
+    cursor: pointer;
+}
+/*Портфолио*/
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 135px;
+    text-align: center;
+}
+.portfolio__btn {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #fff;
+    background: #00897b;
+    border: 2px solid #00897b;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.portfolio__btn:hover {
+    color: black;
+    background: transparent;
+    border: 2px solid #00897b;   
+}
+.portfolio img {
+    margin-bottom: 30px;
+}
+.filter {
+    padding: 120px 0;
+}
+
+
+
